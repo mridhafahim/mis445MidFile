@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header.one {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #666; /* Adjust as desired */
+}
+
+main {
+    background-color: #fafafa;
+    color: #333;
+    padding: 20px;
+    
+    justify-content: space-between;
+}
+
+.a {
+    flex-basis: 50%;
+    background-image: url('Fuji_Womens_day_Dash_card_1x_EN._SY304_CB582974978_.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Set height to cover the entire container */
+}
+
+.b {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    flex-basis: calc(33.33% - 20px); /* Adjust as needed */
+    margin: 10px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+section img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Google Fonts */
+body, main p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+main p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
